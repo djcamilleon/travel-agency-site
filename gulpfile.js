@@ -3,7 +3,8 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
     cssvars = require('postcss-simple-vars'),
-    nested = require(postcss - nested);
+    nested = require('postcss-nested');
+
 
 gulp.task('default', function() {
     console.log("Hooray - you created a Gulp task.");
